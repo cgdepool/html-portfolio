@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(127, 172, 255, 0.57);
+}
+figure{
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.myDiv {
+    display: flex;
+    justify-content: center;
+}
+.myDiv a{
+    width: 30%;
+}
+.myDiv img{
+    width: 100%;
+    border-style: double;
+    border-width: 4px;
+    border-color: blue;
+}
+.projects{
+    display: flex; 
+    flex-wrap: wrap;
+    height: 400px;
+
+}
+.projectsHeader{
+    width: 100%;
+}
+.individualProject{
+    width: calc(50% - 12px);
+    border: 2px dashed blue;
+    padding: 0px 4px;
+    
+}
+.individualProject a{
+    max-width: 100%;
+}
+.individualProject img {
+    max-width: 100%;
+
+}
+
